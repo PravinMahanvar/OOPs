@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A39609D4-40B6-4E73-9EDB-6222405C2B2D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OOPs</RootNamespace>
+    <AssemblyName>OOPs</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OOPs.String.Generic_class11</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aceeptname.cs" />
+    <Compile Include="Arrayone_diamensiondisplay.cs" />
+    <Compile Include="Array_Display_alternative.cs" />
+    <Compile Include="Array_duplicate.cs" />
+    <Compile Include="Array_Employeecs.cs" />
+    <Compile Include="Array_even_odd.cs" />
+    <Compile Include="Array_jagged.cs" />
+    <Compile Include="Array_negative.cs" />
+    <Compile Include="Array_oddpostion.cs" />
+    <Compile Include="Array_primenumber.cs" />
+    <Compile Include="Array_Search.cs" />
+    <Compile Include="Array_searchnumber.cs" />
+    <Compile Include="Array_searchthenumber.cs" />
+    <Compile Include="Array_Secondhigest.cs" />
+    <Compile Include="Array_secondhighestnumber.cs" />
+    <Compile Include="Array_secondsmallest.cs" />
+    <Compile Include="Array_sort.cs" />
+    <Compile Include="Array_sortsecondway.cs" />
+    <Compile Include="Array_sumofevennumber.cs" />
+    <Compile Include="Array_twodimensionway.cs" />
+    <Compile Include="Array_uniquenumber.cs" />
+    <Compile Include="Average_array.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Base90.cs" />
+    <Compile Include="Basiccode 1cs.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="Calc.cs" />
+    <Compile Include="Calculation.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Enum_1.cs" />
+    <Compile Include="Inheritance\Animal.cs" />
+    <Compile Include="Inheritance\Shape.cs" />
+    <Compile Include="Interface\Anagram.cs" />
+    <Compile Include="Interface\ICustomer.cs" />
+    <Compile Include="Interface\Interface2.cs" />
+    <Compile Include="Interface\IPritable.cs" />
+    <Compile Include="IWifi.cs" />
+    <Compile Include="Jarray_1.cs" />
+    <Compile Include="j_Employee1.cs" />
+    <Compile Include="Maximum_array.cs" />
+    <Compile Include="Movie.cs" />
+    <Compile Include="Negative_21.cs" />
+    <Compile Include="over1.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Prime_number.cs" />
+    <Compile Include="Printeven.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rainfall21.cs" />
+    <Compile Include="RevereseArray1.cs" />
+    <Compile Include="Run2.cs" />
+    <Compile Include="static pratic\Program.cs" />
+    <Compile Include="static pratic\Program2.cs" />
+    <Compile Include="static pratic\Run.cs" />
+    <Compile Include="string%28lab%29\Getlengthof string.cs" />
+    <Compile Include="string%28lab%29\String_builder.cs" />
+    <Compile Include="string%28lab%29\String_demo.cs" />
+    <Compile Include="String\Anagram.cs" />
+    <Compile Include="String\Anagram2.cs" />
+    <Compile Include="String\Boxing_unboxing.cs" />
+    <Compile Include="String\Collection_method.cs" />
+    <Compile Include="String\Count.cs" />
+    <Compile Include="String\digits_specialnumber.cs" />
+    <Compile Include="String\Findhighest.cs" />
+    <Compile Include="String\Generic_class11.cs" />
+    <Compile Include="String\Hashtable_2.cs" />
+    <Compile Include="String\Hashtable_method1.cs" />
+    <Compile Include="String\player.cs" />
+    <Compile Include="String\Queue _method.cs" />
+    <Compile Include="String\Reverseofworld.cs" />
+    <Compile Include="String\Stack_method1.cs" />
+    <Compile Include="String\StringBuilder_functionmethod.cs" />
+    <Compile Include="String\Stringbuilder_topicmethodcs.cs" />
+    <Compile Include="String\stringdemo.cs" />
+    <Compile Include="String\String_Empty.cs" />
+    <Compile Include="String\String_Function.cs" />
+    <Compile Include="String\String_function1.cs" />
+    <Compile Include="String\toggle_prob.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Student1.cs" />
+    <Compile Include="Student2.cs" />
+    <Compile Include="Swapcs.cs" />
+    <Compile Include="Use_forechloops.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
